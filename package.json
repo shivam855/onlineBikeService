@@ -1,0 +1,15 @@
+{
+  "name": "javaproject",
+  "version": "1.0.0",
+  "description": "Online Bike Service Portal",
+  "main": "engValidation.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "javaproject"
+  },
+  "author": "Shivam Rathour",
+  "license": "ISC"
+}

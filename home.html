@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>HOME PAGE</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+              html{
+        scroll-behaviour: smooth;
+      }
+            ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color:rgba(120, 120, 120,1);
+}
+li {
+  float: right; 
+}
+.active::first-letter{
+  color: aqua;
+  font-size:unset;
+  
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:16px;
+  text-decoration: none;
+  flex-direction: column;
+}
+
+li a:hover .dropdown:hover .dropbtn {
+  background-color: black;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-right: 2px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.s1{
+    background-image: url("s1.jpg");
+    height:650px;
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+}
+.hh{
+  margin: 150px 50px 150px 35px ;
+}
+
+.hh h1{
+    font-size: 50px;
+    font-family: serif;
+    color:cornsilk;
+}
+.hh p{
+   font-size:25px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:cornsilk;
+}
+.hh a{
+  border:2px solid blue;
+  padding:5px 50px 5px 50px;
+  background-color: lightblue;
+  color:black;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-left: 100px;
+  font-size: 30px;
+}
+.hh a:hover{
+  background-color: blue;
+  border-color: cornsilk;
+}
+.gg {
+  margin: 125px 25px 75px 75px;
+  border: 1px solid #ccc;
+  float: right;
+}
+.gg:hover {
+  border: 1px solid #777;
+}
+.s2{
+  height:650px;
+  background-color: #e6ffff;
+}
+.s1{
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+.img-container {
+  float: left;
+  width: 32.55%;
+  padding: 5px;
+ 
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.s3{
+  height:650px;
+  background-color: blanchedalmond;
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+ </style>
+ </head>
+    <body>
+        <div class="s1">
+        <ul class="topnav">
+        <li><a href="htmlCode/adlogin.html">Admin Login</a></li>
+          <li class="dropdown">
+            <a href="htmlCode/contactUs.html">Contact</a>
+          </li>                    
+            <li><a href="htmlCode/ServicesProvided.html">Services</a></li>
+            <li><a href="htmlCode/aboutus.html">About</a></li>
+            <li><a class="active" href="#">Home</a></li>
+            <li style="float:left;"><a href="#homelyneeds"><b><font color=pink>BikePortal</font></b></a></li>
+          </ul> 
+          <div class="gg">
+              <img src="images/b4.gif" width="500" height="400px">
+         </div>
+        <div class="hh">
+            <h1 ><b>Welcome to <em>Arise </em>bike Service portal</b></h1>
+            <p>For Customer </p>
+            <a href="htmlCode/registration.html">Register</a>
+            <a href="htmlCode/login.html">Login</a><br>
+             <p>For Service Engineer </p>
+            <a href="htmlCode/EngineerReg.html">Register</a>
+            <a href="htmlCode/englogin.html">Login</a>
+            </div></div>
+            <div class="s2">
+              <h1 style="text-align: center;"><font color= #009999>Our store collections</font></h1>
+              <div class= "clearfix">
+                <div class="img-container">
+                  <img src="images/b1.jpg" width="100%"></div>
+                  <div class="img-container">
+                    <img src="images/b2.jpg" width="100%"></div>
+                    <div class="img-container">
+                      <img src="images/b3.jpg" width="100%"></div>
+                      </div>
+                      <H2>For any further query please feel free to contact our team . click <a href="htmlCode/contactUs.html"> here </a></H2>
+                    </div>
+                   
+                      </body>
+                       </html>
